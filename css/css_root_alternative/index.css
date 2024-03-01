@@ -1,0 +1,16 @@
+:root {
+  --color-primary: rgb(0, 119, 204);
+}
+
+body {
+
+}
+
+ul {
+  /* private scoped colors with fallback color  */
+  --_bg: var(--color-primary, pink);
+}
+
+li {
+  color: var(--_bg)
+}
