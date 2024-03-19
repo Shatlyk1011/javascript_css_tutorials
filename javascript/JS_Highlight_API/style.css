@@ -1,0 +1,9 @@
+body {
+  background: #222;
+  color: #f1f1f1;
+}
+
+::highlight(search-results) {
+  background-color: #22f;
+  color: white;
+}
